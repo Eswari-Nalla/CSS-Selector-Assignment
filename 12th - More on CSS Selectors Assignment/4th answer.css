@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px;
+}
+
+button {
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+button:hover {
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: rgb(5, 5, 158);
+    color: white;
+    cursor: pointer;
+    border: 2px solid rebeccapurple;
+    box-shadow: 10px 10px 5px rgb(60, 74, 79);
+}
